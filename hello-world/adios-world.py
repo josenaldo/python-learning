@@ -1,0 +1,5 @@
+print ("Adeus, mundo cruel")
+print ("Adeus, mundo cruel de novo")
+print ("Vaza, carai")
+print ("Tudo isso pra testar um depurador?")
+print ("Eita carai!")
