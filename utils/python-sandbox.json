@@ -1,0 +1,16 @@
+{
+	"extensions": [
+		"DavidAnson.vscode-markdownlint",
+		"dongli.python-preview",
+		"formulahendry.dotnet",
+		"igress.python-coding-conventions",
+		"ms-azuretools.vscode-docker",
+		"MS-CEINTL.vscode-language-pack-pt-BR",
+		"ms-python.python",
+		"Mukundan.python-docs",
+		"shd101wyy.markdown-preview-enhanced",
+		"tht13.python",
+		"yzhang.markdown-all-in-one"
+	],
+	"workspaceFolder": "/home/teste"
+}
