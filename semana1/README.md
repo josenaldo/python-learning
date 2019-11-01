@@ -2,6 +2,13 @@
 
 Artigos e vídeo úteis para complementar a semana 1.
 
+## Código
+
+- operacoes.py - Arquivos com explicação das operações aritiméticas.
+- conversoes.py - Arquivo que mostra como funcionam as converções de tipos
+- print.py - Arquivo que mostra o funcionamento da função print()
+- strings.py - Arquivo que mostra o básico do comportamento das strings e do docstring na função print
+
 ## Livros
 
 - Aprendendo com Python: Edição interativa (usando Python 3.x) - <https://panda.ime.usp.br/pensepy/static/pensepy/index.html>
@@ -25,8 +32,5 @@ Artigos e vídeo úteis para complementar a semana 1.
 
 - `Alt + Cima` ou `Alt + Baixo` - move a linha para cima ou para baixo
 - `Alt + Shift + Cima` ou `Alt + Shift + Baixo` - copia a linha para cima ou para baixo
-- `Shift + enter` - Executa o código python no terminal
+- `Shift + Alt + Enter` - Executa o código python no terminal
 
-
-
-es
