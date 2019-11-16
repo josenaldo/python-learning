@@ -6,9 +6,26 @@ As únicas ferramentas que ele vai precisar instalar localmente são o VS CODE e
 
 ## INSTALAÇÃO DO AMBIENTE
 
+### Git
+
+[Instale o git no seu sistema.](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git).
+
+Se estiver no Windows, instale também o [Tortoise Git](https://tortoisegit.org/download/)
+
+Após instalar o git, clone esse repositório.
+
+- [Clonando com o Git](https://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Clonando com o Tortoise Git](https://tortoisegit.org/docs/tortoisegit/tgit-dug-clone.html)
+
 ### DOCKER
 
-Baixe e instale o Docker. No windows, ele pode ser baixado em <https://www.docker.com/products/docker-desktop>
+Se você estiver no Windows 10 Home:
+
+- Baixe e instale o Docker Toolbox <https://docs.docker.com/toolbox/toolbox_install_windows/>
+
+Se você estiver no Windows 10 Pro ou Enterprise, Mac ou Linux:
+
+- Baixe e instale o Docker Desktop. No windows, ele pode ser baixado em <https://www.docker.com/products/docker-desktop>
 
 ### VISUAL STUDIO CODE
 
@@ -29,9 +46,18 @@ Instale, no VSCode, as seguintes extensões:
 - Remote - Containers
 - Docker Extension Pack
 
-Você pode instalar as extensões usando o a Loja de extensões (`Ctrl + Shift + X`) ![Loja de extensões](readme-images/extension-store.png)
+Você pode instalar as extensões usando a Loja de extensões (`Ctrl + Shift + X`) ![Loja de extensões](readme-images/extension-store.png)
 
-Ou usando os arquivos vsix disponíveis na pasta `utils/extensions/step1 - docker` ![Instalando do Vsix](readme-images/extension-installing-vsix.png)
+Ou usando os arquivos vsix disponíveis na pasta `utils/extensions/step1 - docker`. Para isso:
+
+- Clique no ícone 3 pontos (passo 1 na imagem abaixo), então escolha a opção "Instalar do VSIX..." 
+- Navegue até a pasta `python-learning/utils/extensions/step1 - docker`
+  - Ex: Você clonou o repositório na pasta `d:\projetos\python-learning`, então o repositório dos arquivos VSIX está na pasta `d:\projetos\python-learning\utils\extensions\step1 - docker`
+- Selecione um dos arquivos
+- Clique em install
+- Repita o processo para o outro arquivo
+
+![Instalando do Vsix](readme-images/extension-installing-vsix.png)
 
 ### CONSTRUÇÃO DO CONTAINER
 
@@ -71,6 +97,12 @@ O comando a ser executado será:
 
 ```bash
 docker run -it -d -v D:\projetos\python-learning:/home/teste --name python-sandbox python-sandbox
+```
+
+Se estiver no Windows 10 home:
+
+```bash
+docker run -it -d -v /python-learning:/home/teste --name python-sandbox python-sandbox
 ```
 
 ### CONECTANDO O VISUAL STUDIO CODE AO CONTAINER
@@ -151,7 +183,7 @@ Ou usando os arquivos vsix disponíveis na pasta `utils/extensions/step3 - markd
 
 Verifique se há atualizações para as extensões instaladas. ![Atualizando extensões](readme-images/extension-update.png)
 
-### RECARREGUE a IDE
+### RECARREGUE A IDE
 
 Se necessário, recarregue o VSCode para concluir a instalação das extensões instaladas. ![Recarregue o VSCode](readme-images/extension-refresh.png)
 
@@ -177,3 +209,23 @@ Ao fim do processo, o VSCode deve estar mostando o arquivo `python-sandbox.json`
     "workspaceFolder": "/home/teste"
 }
 ```
+
+### Problemas com a instalação no Windows 10 Home
+
+- <https://medium.com/@thimblot/using-docker-on-windows-without-hyper-v-troubleshooting-tips-2949587f796a>
+- Se o docker parar, executar no terminal `docker machine restart default`
+
+## PROGRAMANDO EM PYTHON COM O VCSCODE E DOCKER
+
+### ABRINDO A PASTA DO PROJETO
+
+### CRIANDO UM ARQUIVO DE CÓDIGO FONTE
+
+### EXECUTANDO O CÓDIGO FONTE
+
+### USANDO A JANELA INTERATIVA
+
+### CONFIGURANDO ATALHOS DE TECLADO PARA EXECUTAR O PROGRAMA
+
+### DEPURANDO O PROGRAMA
+
