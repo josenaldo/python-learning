@@ -102,6 +102,8 @@ docker run -it -d -v D:\projetos\python-learning:/home/teste --name python-sandb
 Se estiver no Windows 10 home:
 
 ```bash
+docker machine restart default
+
 docker run -it -d -v /python-learning:/home/teste --name python-sandbox python-sandbox
 ```
 
