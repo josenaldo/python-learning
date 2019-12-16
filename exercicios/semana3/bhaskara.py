@@ -1,5 +1,7 @@
 import math
 
+# Programa que calcula as raízes reais de uma equação de segundo grau usando a fórmula de bhaskara
+# Referência para o método: https://brasilescola.uol.com.br/matematica/formula-bhaskara.htm
 def main():
     print('Bem vindo ao programa de cálculo de raízes reais para uma equação de segundo grau')
     print('A equeção tem o formato "ax^2 + bx + c = 0')    
