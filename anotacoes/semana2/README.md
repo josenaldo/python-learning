@@ -10,10 +10,3 @@
 
 - Saída formatada em Python - <https://www.python-course.eu/python3_formatted_output.php>
 - Python Tutorial, da W3C - <https://www.w3schools.com/python/default.asp>
-
-## Atalhos do VSCode
-
-- `Alt + Cima` ou `Alt + Baixo` - move a linha para cima ou para baixo
-- `Alt + Shift + Cima` ou `Alt + Shift + Baixo` - copia a linha para cima ou para baixo
-- `Shift + Alt + Enter` - Executa o código python no terminal
-- F2 - Renomeia um símbolo (variável ou função)
