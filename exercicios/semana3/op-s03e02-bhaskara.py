@@ -11,19 +11,20 @@ def main():
 
     # calcula o delta
     delta = b**2 - 4*a*c
-    print(f'delta = {delta}')
-
+    
     # se delta > 0    
     if delta > 0:        
         x1 = (-b + math.sqrt(delta))/(2*a)
         x2 = (-b - math.sqrt(delta))/(2*a)
-        print(f'x1 = {x1} e x2={x2}')
-    # senao se delta = 0
+        if x1 <= x2:
+            print(f'as raízes da equação são {x1:.1f} e {x2:.1f}')
+        else:
+            print(f'as raízes da equação são {x2:.1f} e {x1:.1f}')    
     elif delta == 0:
         x = (-b + math.sqrt(delta))/(2*a)
-        print(f'x = {x}')        
+        print(f'a raiz desta equação é {x}')        
     else:
-        print(f'Essa equação não apresenta raízes reais')
+        print(f'esta equação não possui raízes reais')
 
 #-----------------------------------------------
 # a linha a seguir inicia a execução do programa
