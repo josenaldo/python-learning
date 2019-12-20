@@ -1,3 +1,6 @@
+# Dado um número inteiro n >= 0, calcular n!.
+# Link: https://panda.ime.usp.br/aulasPython/static/aulasPython/aula02.html
+
 def main():
     n = int(input('Informe o valor de n: '))
 
